@@ -1,0 +1,29 @@
+.hero {
+    margin-top: 20px;
+}
+
+.pet-card,
+.tip-card {
+    transition: transform 0.2s;
+}
+
+.pet-card:hover,
+.tip-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
